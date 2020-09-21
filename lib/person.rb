@@ -1,10 +1,10 @@
 class Person 
     def name=(person_name)
-    @this_person_name = person_name
+    @name = person_name
   end 
  
   def name
-    @this_person_name
+    @name
   end
   
     def job=(job_name)
@@ -12,7 +12,7 @@ class Person
   end
  
   def job
-    @breed
+    @job
   end
 
 end 
